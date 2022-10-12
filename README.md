@@ -34,7 +34,7 @@ Pascal however, specifically the Free Pascal Compiler in this case, is not case 
 
 Free Pascal already has symbol attributes to deal with case sensitive imports/exports, so that will be used.
 
-Unless symbol collisions become a major issue, since the V front end will be enforcing case sensitive matching, I plan to not apply any sort of suffix hint unless there is an acutal collisions.
+Unless symbol collisions become a major issue, since the V front end will be enforcing case sensitive matching, I plan to not apply any sort of suffix hint unless there is an acutal collision.
 
 Handling of collsions could be maintained as follows:
 1. Maintain a list of collisons, which scope, etc, and just create a serial tag suffix for the particular collision.
