@@ -2,7 +2,7 @@
 
 ## My initial findings
 
-`vlib/v/pref/pref.v well`, this seems like somewhere I'll need to start adding new symbols... and try to start filling in where they are to be used, and look where the other backend symbols are used...
+`vlib/v/pref/pref.v` well, this seems like somewhere I'll need to start adding new symbols... and try to start filling in where they are to be used, and look where the other backend symbols are used...
 
 I'll start here: https://github.com/vlang/v/blob/master/vlib/v/pref/pref.v#L48
 and here: https://github.com/vlang/v/blob/master/vlib/v/pref/pref.v#L66
