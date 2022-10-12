@@ -79,10 +79,10 @@ After that passes, you will have an array of processed `ast.File` in `b.parsed_f
 You can use something like `vlib/v/ast/walker/` (`import v.ast.walker`) like this:
 ```v
 for file in b.parsed_files {
-    walker.inspect(file, unsafe { &mut b }, fn (node &ast.Node, data voidptr) bool {
+        walker.inspect(file, unsafe { &mut b }, fn (node &ast.Node, data voidptr) bool {
     }
 }
 ```
-To process all of the nodes in the AST of the files (edited) or walk over them manually, using matches, if you prefer more control.
+To process all of the nodes in the AST of the files or walk over them manually, using matches, if you prefer more control.
 
 i.e. the `TLDR` is, that I think that you can just modify `cmd/tools/builders/NAME_builder.v`, but the existing convention is to put the actual driver/setup implementation that handles the command line options in `vlib/v/builder/NAMEbuilder/` (reusing `v.pref`), and the actual code that produces the `text/binary` output in `vlib/v/gen/NAME/`
