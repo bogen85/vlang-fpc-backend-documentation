@@ -11,7 +11,8 @@ https://www.freepascal.org/
 ## Goals
 1. Able to function at same tier level as the primary C backend.
 1. Full interop with C (obviously)
-1. Full interop with FPC units.
+1. Full interop with FPC (and Lazarus) units.
+1. Support for all FPC targets and architectures.
 
 ## Memory management
 1. Will use smart pointers (runtime reference counting, automatic free when count reaches 0)
@@ -24,7 +25,7 @@ https://www.freepascal.org/
   - Function itself will be an object method
 1. Managed by smart pointers, so backend API is applicable
 
-## Callback functions
+## Callback functions for export to other languages
 1. Similar to Closure objects
 
 ## Trampolines (for callbacks that cross language and onther incompatible memory management boundries)
