@@ -13,6 +13,7 @@ https://www.freepascal.org/
 1. Full interop with C (obviously)
 1. Full interop with FPC (and Lazarus) units.
 1. Support for all FPC targets and architectures.
+1. No memory allocation leaks.
 
 ## Memory management
 1. Will use smart pointers (runtime reference counting, automatic free when count reaches 0)
