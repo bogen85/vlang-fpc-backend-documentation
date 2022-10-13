@@ -1,7 +1,12 @@
 # vlang-fpc-backend-documentation
-Documentation for VLang FPC (Free Pascal Compiler) backend project
+
+[Documentation for VLang FPC (Free Pascal Compiler) backend project](https://github.com/bogen85/vlang-fpc-backend-documentation)
 
 https://www.freepascal.org/
+
+##
+1. VLang fork for pull requests. [VLang Free Pascal backend](https://github.com/bogen85/vlang-fpc-backend)
+1. VLang Free Pascal backend development.  	[VLang Free Pascal backend development](https://github.com/bogen85/vlang-fpc-backend/tree/das-develop-main)
 
 ## Goals
 1. Able to function at same tier level as the primary C backend.

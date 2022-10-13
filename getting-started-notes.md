@@ -9,6 +9,14 @@ and here: https://github.com/vlang/v/blob/master/vlib/v/pref/pref.v#L66
 
 `golang` and `js` will likely be the existing backends implementations I need to figure out the most (as far how they are layered in)
 
+## pref.v locations
+
+Add `freepascal` to `pub enum Backend`
+
+Add `fpc` to `pub enum CompilerType`
+
+Add `'freepascal', 'fpc' { return .freepascal }` to `fn backend_from_string(s string) ?Backend`
+
 ## Delyan's followup
 
 Currently backends are added by first changing `pref.v` as you noticed
