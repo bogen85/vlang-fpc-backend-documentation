@@ -45,4 +45,4 @@ Unless symbol collisions become a major issue, since the V front end will be enf
 
 Handling of collsions could be maintained as follows:
 1. Maintain a list of collisons, which scope, etc, and just create a serial tag suffix for the particular collision.
-2. Create a modified (base36?) run length encoding suffix to identify which symbol characters are upper case, or if the entire symbol is uppercase, or if it is title case only. (Will only do this if symbol collisions becomes enough of an issue that a simple serial tag in insufficient to accomadate)
+2. Create a modified (base36?) run length encoding suffix to identify which symbol characters are upper case, or if the entire symbol is uppercase, or if it is title case only. (Will only do this if symbol collisions becomes enough of an issue that a simple serial tag is insufficient to accomadate)
