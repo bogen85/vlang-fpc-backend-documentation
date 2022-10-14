@@ -1,4 +1,4 @@
-// CudaText: lexer_file=Markdown; tab_size=2; tab_spaces=Yes; newline=LF;
+[//] # CudaText: lexer_file=Markdown; tab_size=2; tab_spaces=Yes; newline=LF;
 
 # V Types
 
