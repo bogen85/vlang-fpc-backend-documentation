@@ -20,13 +20,23 @@
 | u16     | uint16      |       |
 | u32     | uint32      |       |
 | u64     | uint64      |       |
-| i128    | TBD         | Not in V yet? See [int128rec](https://www.freepascal.org/docs-html/rtl/sysutils/int128rec.html) |
-| u128    | TBD         | Not in V yet? See [this](https://forum.lazarus.freepascal.org/index.php?topic=45749.0) also. |
+| i128    | TBD         | Not in V yet?  |
+| u128    | TBD         | Not in V yet? |
 | voidptr | pointer     |       |
 | rune    | int32       |       |
 | isize   |             | [See V isize primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
 | usize   |             | [See V usize primitive types](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
 | any     |             | Not in V yet? |
+
+## 128 bit notes
+
+Compiler seems to know about [128 bit types.](https://gitlab.com/freepascal.org/fpc/source/-/blob/3a34fc7be3402cb52a436935f31c3c4ccb5a2d86/compiler/psystem.pas#L288)
+
+See some custom usage [here.](https://gitlab.com/freepascal.org/fpc/source/-/blob/3a34fc7be3402cb52a436935f31c3c4ccb5a2d86/packages/hash/src/crc.pas#L71)
+
+See [int128rec.](https://www.freepascal.org/docs-html/rtl/sysutils/int128rec.html)
+
+See [this](https://forum.lazarus.freepascal.org/index.php?topic=45749.0) also.
 
 ## String
 
