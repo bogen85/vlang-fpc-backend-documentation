@@ -6,6 +6,10 @@
 
 [V primitive types documentation](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types)
 
+`sizeof(type)` for both `V` and `Free Pascal` need to be identical in order to be a compatible mapping.
+
+The following are identically sized between `V` and `Free Pascal`:
+
 | V       | Free Pascal | Notes   |
 |---------|-------------|---------|
 | bool    | boolean     |         |
