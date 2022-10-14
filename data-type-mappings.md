@@ -30,4 +30,4 @@
 
 When returned or needed to be memory managed, will be wrapped in a smart pointer type record.
 
-Implemenation details to be worked out on the smart pointer wrapping.
+Implementation details to be worked out on the smart pointer wrapping.
