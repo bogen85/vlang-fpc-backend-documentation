@@ -20,8 +20,8 @@
 | u16     | uint16      |       |
 | u32     | uint32      |       |
 | u64     | uint64      |       |
-| i128    | TBD         | Not in V yet? |
-| u128    | TBD         | Not in V yet? |
+| i128    | TBD         | Not in V yet? See [int128rec](https://www.freepascal.org/docs-html/rtl/sysutils/int128rec.html) |
+| u128    | TBD         | Not in V yet? See [this](https://forum.lazarus.freepascal.org/index.php?topic=45749.0) also. |
 | voidptr | pointer     |       |
 | rune    | int32       |       |
 | isize   |             | [See V isize primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
