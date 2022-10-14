@@ -9,6 +9,8 @@
 | V       | Free Pascal | Notes |
 |---------|-------------|-------|
 | bool    | boolean     |       |
+| f32     | single      |       |
+| f64     | double      |       |
 | int     | int32       | [See V int primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
 | i8      | int8        |       |
 | i16     | int16       |       |
@@ -18,6 +20,8 @@
 | u16     | uint16      |       |
 | u32     | uint32      |       |
 | u64     | uint64      |       |
+| i128    | TBD         | Not in V yet? |
+| u128    | TBD         | Not in V yet? |
 | voidptr | pointer     |       |
 | rune    | int32       |       |
 | isize   |             | [See V isize primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
