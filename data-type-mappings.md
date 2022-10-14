@@ -26,7 +26,7 @@
 
 ## String
 
-`string` will use a V `c:backend` compatible [record/structure](https://github.com/vlang/v/blob/master/vlib/builtin/string.v#L44).
+`string` will use a V `c:backend` compatible [record/structure](https://github.com/vlang/v/blob/fc8e3d09717eaac3f2854640f91edfe55ede923f/vlib/builtin/string.v#L44).
 
 When returned or needed to be memory managed, will be wrapped in a smart pointer type record.
 
