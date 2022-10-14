@@ -20,6 +20,14 @@
 | u64     | uint64      |       |
 | voidptr | pointer     |       |
 | rune    | int32       |       |
-| isize   |             |       |
-| usize   |             | [See V isize, usize primitive types](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
+| isize   |             | [See V isize primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
+| usize   |             | [See V usize primitiv types](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
 | any     | ----------- | Not in V yet? |
+
+## String
+
+`string` will use a V `c:backend` compatible record/structure.
+
+When returned on needed to be memory managed, will be wrapped in a smart pointer type record.
+
+Implemenation details to be worked out.
