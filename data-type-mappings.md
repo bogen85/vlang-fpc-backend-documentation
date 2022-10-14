@@ -25,7 +25,7 @@
 | voidptr | pointer     |         |
 | rune    | int32       |         |
 | isize   | (a signed integer)    | [See V isize primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
-| usize   | (a unsigned integer)  | [See V usize primitive types](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
+| usize   | (an unsigned integer) | [See V usize primitive types](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
 | any     |             | Not in V yet? |
 
 ## 128 bit notes -- (Free Pascal 128 bit integers )
