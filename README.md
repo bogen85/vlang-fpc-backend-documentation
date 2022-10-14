@@ -30,7 +30,7 @@ https://www.freepascal.org/
 ## Callback functions for export to other languages
 1. Similar to Closure objects
 
-## Trampolines (for callbacks that cross language and onther incompatible memory management boundries)
+## Trampolines (for callbacks that cross language and other incompatible memory management boundries)
 1. A trampoline template will be needed to create directly callable by C function pointers
   - Trampoline will need to be hot patchable to refer back to the to anonymous function or callback function objects as required.
 
