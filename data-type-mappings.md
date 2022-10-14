@@ -6,29 +6,29 @@
 
 [V primitive types documentation](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types)
 
-| V       | Free Pascal | Notes |
-|---------|-------------|-------|
-| bool    | boolean     |       |
-| f32     | single      |       |
-| f64     | double      |       |
+| V       | Free Pascal | Notes   |
+|---------|-------------|---------|
+| bool    | boolean     |         |
+| f32     | single      |         |
+| f64     | double      |         |
 | int     | int32       | [See V int primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
-| i8      | int8        |       |
-| i16     | int16       |       |
-| i32     | int32       |       |
-| i64     | int64       |       |
-| u8      | uint8       |       |
-| u16     | uint16      |       |
-| u32     | uint32      |       |
-| u64     | uint64      |       |
+| i8      | int8        |         |
+| i16     | int16       |         |
+| i32     | int32       |         |
+| i64     | int64       |         |
+| u8      | uint8       |         |
+| u16     | uint16      |         |
+| u32     | uint32      |         |
+| u64     | uint64      |         |
 | i128    | TBD         | Not in V yet? (See 128 bit notes) |
 | u128    | TBD         | Not in V yet? (See 128 bit notes) |
-| voidptr | pointer     |       |
-| rune    | int32       |       |
-| isize   |             | [See V isize primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
-| usize   |             | [See V usize primitive types](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
+| voidptr | pointer     |         |
+| rune    | int32       |         |
+| isize   | (a signed integer)    | [See V isize primitive type](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
+| usize   | (a unsigned integer)  | [See V usize primitive types](https://github.com/vlang/v/blob/master/doc/docs.md#primitive-types) |
 | any     |             | Not in V yet? |
 
-## 128 bit notes
+## 128 bit notes -- (Free Pascal 128 bit integers )
 
 Compiler seems to know about [128 bit types.](https://gitlab.com/freepascal.org/fpc/source/-/blob/3a34fc7be3402cb52a436935f31c3c4ccb5a2d86/compiler/psystem.pas#L288)
 
