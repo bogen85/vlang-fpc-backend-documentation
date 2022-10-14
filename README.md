@@ -21,10 +21,11 @@ https://www.freepascal.org/
 
 ## Anonymous functions
 1. Since V Closures must declare captures, FPC closures won't need to be used.
-1. Closures will managed by custom Object Pascal classes (generated per closure depending on capture and function arguments and return)
+2. Closures will managed by custom Object Pascal classes (generated per closure depending on capture and function arguments and return)
   - Captures variables with be data members
   - Function itself will be an object method
-1. Managed by smart pointers, so backend API is applicable
+3. Managed by smart pointers, so backend API is applicable
+4. FPC anonymous functions (and function references) may be used in other contexts in this backend, but not specifially to support V Closures.
 
 ## Callback functions for export to other languages
 1. Similar to Closure objects
