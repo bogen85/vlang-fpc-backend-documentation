@@ -9,8 +9,8 @@
 https://www.freepascal.org/
 
 ##
-1. [VLang fork for pull requests.](https://github.com/bogen85/vlang-fpc-backend)
-1. [VLang Free Pascal backend development branch.](https://github.com/bogen85/vlang-fpc-backend/tree/das-develop-main)
+1. [VLang fork for pull requests (private)](https://github.com/bogen85/vlang-fpc-backend)
+1. [VLang Free Pascal backend development branch (private)](https://github.com/bogen85/vlang-fpc-backend/tree/das-develop-main)
 
 ## Goals
 1. Able to function at same tier level as the primary C backend.
