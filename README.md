@@ -1,3 +1,7 @@
+<!---
+  CudaText: lexer_file=Markdown; tab_size=2; tab_spaces=Yes; newline=LF;
+  --->
+
 # vlang-fpc-backend-documentation
 
 [Documentation for VLang FPC (Free Pascal Compiler) backend project](https://github.com/bogen85/vlang-fpc-backend-documentation)
@@ -11,9 +15,15 @@ https://www.freepascal.org/
 ## Goals
 1. Able to function at same tier level as the primary C backend.
 1. Full interop with C (obviously)
-1. Full interop with FPC (and Lazarus) units.
+1. Full interop with Free Pascal (and Lazarus) units. (with some limitations that may require bindings to work around, automatically generated)
+1. Ability to use a V module (that is using this backend) as a FreePascal unit. (with some limitations that may require bindings to work around, automatically generated)
 1. Support for all FPC targets and architectures.
 1. No memory allocation leaks.
+
+## Note on memory management
+
+- The V frontend assumes automatic memory management, but currently not provide support for it.
+- Currently in V the backend must provide that support.
 
 ## Memory management
 1. Will use smart pointers (runtime reference counting, automatic free when count reaches 0)
